@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no,
+          initial-scale=1.0, maximum-scale=1.0,
+          minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My First Webpage</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+        <form>
+            <fieldset>
+                <legend>Account</legend>
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name"
+                required>
+                <br>
+                <label for="email">이메일</label>
+                <input type="text" id="email" name="email">
+                <br>
+                <label for="passowrd">비밀번호</label>
+                <input type="password" id="passowrd" name="password">
+            </fieldset>
+            <fieldset>
+                <legend>User Info</legend>
+                <label for="location">주소</label>
+                <select name="location" id="location">
+                    <option value="MA">MA</option>
+                    <option value="MY">MY</option>
+                    <option value="CA">CA</option>
+                </select>
+                <br>
+                <h4>성별</h4>
+                <label for="gender1">남성</label>
+                <input type="radio" name="gender" id="gender1"
+                       value="Male">
+                <label for="gender2">여성</label>
+                <input type="radio" name="gender" id="gender2"
+                       value="FeMale">
+                <br>
+                <label for="gender11">남성</label>
+                <input type="checkbox" name="gender" id="gender11"
+                       value="Male">
+                <label for="gender12">여성</label>
+                <input type="checkbox" name="gender" id="gender12"
+                       value="FeMale">
+            </fieldset>
+            <input type="submit" value="등록">
+        </form>
+</body>
+</html>
