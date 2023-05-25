@@ -13,7 +13,6 @@ body{
     font-family:arial,sans-serif;
     line-height:1.5em;
     overflow:hidden;
-
 }
 /*html에서 id로 접근하여 스타일(단일)적용*/
 #container{
