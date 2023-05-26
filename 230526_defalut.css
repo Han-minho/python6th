@@ -1,1 +1,18 @@
-h1{color:red;}
+h1{color:red; left:0px; top:0px;}
+.wrapper{
+    border : #000 1px solid;
+    width : 598px;
+    height :400px;
+    /*상대적인 위치를 맞추는 방법*/
+    position : relative;
+    left: 50px;
+    top: 100px;
+}
+.inside{
+    border:#ff0000 1px solid;
+    width:200px;
+    height:100px;
+    position:absolute;
+    top:20px;
+    left:50px;
+}
