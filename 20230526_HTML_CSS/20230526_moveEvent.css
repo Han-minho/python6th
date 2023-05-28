@@ -74,3 +74,10 @@ img{
     padding:10px;
     border-image:url('border.png')30 round;
 }
+#my-bg{
+    background-image:url('border.png'),url('background.jpg');
+    background-position:left top,right bottom;
+    background-repeat:repeat,no-repeat;
+    padding:20px;
+    background-size:50px 50px cover;
+}
