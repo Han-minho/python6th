@@ -1,0 +1,76 @@
+a:hover{
+    color:red;
+    fort-weight:bold;
+}
+/*마우스를 올려 놓을 시 보여주는 스타일*/
+a:active{
+    color:green;
+    font-weight:bold;
+}
+/*클릭 시 보여주는 스타일*/
+.myForm input:focus{
+    background: pink;
+    width:300px;
+}
+/*마우스를 올려놓으면 보여주는 스타일*/
+/*
+.myForm input:active{
+    background: green;
+    width:300px;
+}*/
+.myList li:first-child{
+    color:green;
+    font-weight:bold;
+}
+.myList li:last-child{
+    color:red;
+    font-weight:bold;
+}
+.myList li:nth-child(3n+3){
+    color:orange;
+    font-weight:bold;
+}
+.myList li:nth-child(even){
+    background:yellow;
+    font-wright:bold;
+}
+.myList li:nth-child(odd){
+    background:gray;
+    font-weight:bold;
+}
+/*두번째 시작*/
+#rounded1{
+    background:lightblue;
+    color:white;
+    width:200px;
+    padding:10px;
+    height:140px;
+    border-radius:50px;
+}
+#rounded2{
+    background:orange;
+    color:white;
+    width:200px;
+    padding:10px;
+    height:140px;
+    border-radius:30px;
+}
+#rounded3{
+    background:pink;
+    color:white;
+    width:200px;
+    padding:10px;
+    height:140px;
+    height:140px;
+    border-radius:70px;
+}
+img{
+    width:300px;
+    height:300px;
+    border-radius:50%;
+}
+#border-img{
+    border:10px solid;
+    padding:10px;
+    border-image:url('border.png')30 round;
+}
