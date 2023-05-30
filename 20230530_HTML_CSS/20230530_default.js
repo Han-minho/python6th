@@ -1,4 +1,4 @@
-document.write('Hello World!');
+/*document.write('Hello World!');
 document.write("<h1>Welcome to JS Program</h1>");
 document.write("<h2>Welcome to JS Program</h2>");
 
@@ -73,7 +73,7 @@ var text2 = "bye";
 var text3 = text1.concat(text2);
 var text4 = text1+text2;
 document.write(text3+"<br/>");
-document.write(text4+"<br/>");
+document.write(text4+"<br/>");*/
 
 var text5 = "hello";
 var result = text5.slice(3,4);
