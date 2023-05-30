@@ -31,3 +31,4 @@ var person = {firstName:"John",lastName:"Doe",age:50,eyeColor:"blue"};
 console.log(typeof person,person);
 person = null;
 console.log(typeof person,person);
+console.log(isNaN);
