@@ -1,4 +1,4 @@
-/*document.write('Hello World!');
+document.write('Hello World!');
 document.write("<h1>Welcome to JS Program</h1>");
 document.write("<h2>Welcome to JS Program</h2>");
 
@@ -6,7 +6,7 @@ console.log("Welcome JS Program log!");
 console.info("Welcome JS Program info!");
 console.warn("Welcome JS Program warn!");
 console.error("Welcome JS Program error!");
-console.log('hi');*/
+console.log('hi');
 
 //alert("Welcome JS Program");
 //var a = prompt("Welcome JS Program");
@@ -31,4 +31,4 @@ var person = {firstName:"John",lastName:"Doe",age:50,eyeColor:"blue"};
 console.log(typeof person,person);
 person = null;
 console.log(typeof person,person);
-console.log(isNaN);
+
