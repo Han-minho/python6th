@@ -1,30 +1,28 @@
-/*document.write('Hello World!');
+document.write('Hello World!');
 document.write("<h1>Welcome to JS Program</h1>");
-document.write("<h2>Welcome to JS Program</h2>");*/
-/*
+document.write("<h2>Welcome to JS Program</h2>");
 
 console.log("Welcome JS Program log!");
 console.info("Welcome JS Program info!");
 console.warn("Welcome JS Program warn!");
 console.error("Welcome JS Program error!");
 console.log('hi');
-*/
 
-//alert("Welcome JS Program");
-//var a = prompt("Welcome JS Program");
-/*console.log(a);
+*alert("Welcome JS Program");
+var a = prompt("Welcome JS Program");
+console.log(a);
 
 var i = 0;
 console.log(i++);
-console.log(++i);*/
+console.log(++i);
 
-/*console.log(123,typeof 123);
+console.log(123,typeof 123);
 console.log(123.5, typeof 123.5);
 console.log("123", typeof "123");
 console.log(true,typeof true);
-console.log(false,typeof false);*/
+console.log(false,typeof false);
 
-/*var car;
+var car;
 console.log(car);
 var car="";
 console.log(car);
@@ -32,18 +30,18 @@ var person = {firstName:"John",lastName:"Doe",age:50,eyeColor:"blue"};
 
 console.log(typeof person,person);
 person = null;
-console.log(typeof person,person);*/
+console.log(typeof person,person);
 
-/*var firstName = "이승훈";
+var firstName = "이승훈";
 var age = 29;
 var cgpa = 3.92;
 var lineBreak = "<br/>"
 
 document.write("이름 : " + firstName + lineBreak);
 document.write("나이 : " + age + lineBreak);
-document.write("학점 : " + cgpa + lineBreak);*/
+document.write("학점 : " + cgpa + lineBreak);
 
-/*
+
 var lastName = "홍";
 var firstName = "길동";
 var fullName = lastName + firstName;
@@ -57,9 +55,9 @@ var num2 =  30;
 var sum = num1+num2;
 console.log(num1+num2);
 console.log(""+num1+num2);
-console.log(num1+"+"+num2+"="+sum);*/
+console.log(num1+"+"+num2+"="+sum);
 
-/*var text = prompt("Enter your name:");
+var text = prompt("Enter your name:");
 document.write("your name : "+text+"<br/>");
 
 var len = text.length;
@@ -75,7 +73,7 @@ var text2 = "bye";
 var text3 = text1.concat(text2);
 var text4 = text1+text2;
 document.write(text3+"<br/>");
-document.write(text4+"<br/>");*/
+document.write(text4+"<br/>");
 
 var text5 = "hello";
 var result = text5.slice(3,4);
