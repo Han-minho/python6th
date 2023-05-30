@@ -9,7 +9,7 @@
    - parseInt()
  */
 
-/*document.write('Hello World!');
+document.write('Hello World!');
 document.write("<h1>Welcome to JS Program</h1>");
 document.write("<h2>Welcome to JS Program</h2>");
 
@@ -84,17 +84,17 @@ var text2 = "bye";
 var text3 = text1.concat(text2);
 var text4 = text1+text2;
 document.write(text3+"<br/>");
-document.write(text4+"<br/>");*/
+document.write(text4+"<br/>");
 
-/*var text5 = "hello";
+var text5 = "hello";
 var result = text5.slice(3,4);
 document.write(result+"<br/>");
 
 var num = "20";
 num = num.toString();
-console.log(typeof num);*/
+console.log(typeof num);
 
-/*var number = 20;
+var number = 20;
 console.log(typeof number);
 
 number = number.toString();
@@ -110,16 +110,13 @@ console.log(Number(true));
 console.log(Number(false));
 console.log(Number(" 10"));
 console.log(Number(" 10 "));
-console.log(Number("10.25"));*/
+console.log(Number("10.25"));
 
-/*
-var num6 = parseInt(prompt("Enter first number : "));*/
-/*
+var num6 = parseInt(prompt("Enter first number : "));
 var text = prompt("Enter first number : ");
 var num6 = parseInt(text);
 
-*/
-/*var num7 = parseInt(prompt("Enter second number : "));
+var num7 = parseInt(prompt("Enter second number : "));
 var lineBreak = "<br/>";
 
 var result1 = num6+num7;
@@ -132,14 +129,11 @@ result1=num6/num7;
 document.write("the division is : "+result1+lineBreak);
 result1=num6%num7;
 document.write("the remainder is : "+result1+lineBreak);
-*/
 
-/*
 var width = prompt("Enter 일반 : ");
 var num1 =  praseInt(width);
-*/
-/*var width = parseFloat(prompt("Enter 일반 : "));
+var width = parseFloat(prompt("Enter 일반 : "));
 var height = parseFloat(prompt("놀이 입력 : "));
 
 var area = width * height * 0.5;
-document.write("삼각형의 넓이 : "+area);*/
+document.write("삼각형의 넓이 : "+area);
