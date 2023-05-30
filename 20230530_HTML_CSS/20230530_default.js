@@ -19,7 +19,7 @@ console.warn("Welcome JS Program warn!");
 console.error("Welcome JS Program error!");
 console.log('hi');
 
-*alert("Welcome JS Program");
+alert("Welcome JS Program");
 var a = prompt("Welcome JS Program");
 console.log(a);
 
