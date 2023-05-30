@@ -5,6 +5,7 @@
    - 생성자 함수
    - 형변환 함수
    - typeof 함수
+   - slice()함수
    - 연산자
    - parseInt()
  */
@@ -87,6 +88,7 @@ document.write(text3+"<br/>");
 document.write(text4+"<br/>");
 
 var text5 = "hello";
+//slice함수 사용
 var result = text5.slice(3,4);
 document.write(result+"<br/>");
 
