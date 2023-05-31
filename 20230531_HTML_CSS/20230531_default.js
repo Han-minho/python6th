@@ -122,15 +122,39 @@ while(j<=10){
 
 /*beak와 contunue 이해하기*/
 /*break문*/
-document.write("=========================<br>")
+/*document.write("=========================<br>")
 for (var i = 1;i <= 100; i++){
     if(i==20){break;}
     document.write(i+"<br>");
 }
 document.write("=========================<br>")
-/*continue문*/
+*//*continue문*//*
 for(var k = 1; k <= 100; k++){
     if(k==20){continue;}
     document.write(k+"<br/>")
+}*/
+//document.write("=========================<br>")
+//함수
+//매개변수 없는 함수 생성하기
+function message(){
+    document.write("Hello, I am function without parameter "+"<br>");
 }
-document.write("=========================<br>")
+//한개의 매개변수를 가진 함수 생성하기
+function selectMessage(name){
+    document.write("Welcome"+name+"<br/>")
+}
+//여러개의 매개변수를 가진 함수 생성하기
+function addition(num1,num2){
+    var sum = num1+num2;
+    document.write("addition is "+sum+"<br/>");
+}
+function square(num){
+    return num * num;
+}
+
+message();
+selectMessage("한민호");
+addition(2,3);
+document.write("square if 5 is "+square(5)+"<br/>");
+
+//document.write("=========================<br>")
