@@ -107,7 +107,7 @@ switch (digit){
 }
 console.log("=========================");
 */
-var i = 1
+/*var i = 1
 
 do{
     document.write("멋쟁이사자i :  "+ i++ +"<br>/")
@@ -117,5 +117,20 @@ var j = 1
 
 while(j<=10){
     document.write("멋쟁이사자j :  "+ j++ +"<br>/")
+}*/
+/*document.write("=========================<br>")*/
+
+/*beak와 contunue 이해하기*/
+/*break문*/
+document.write("=========================<br>")
+for (var i = 1;i <= 100; i++){
+    if(i==20){break;}
+    document.write(i+"<br>");
+}
+document.write("=========================<br>")
+/*continue문*/
+for(var k = 1; k <= 100; k++){
+    if(k==20){continue;}
+    document.write(k+"<br/>")
 }
 document.write("=========================<br>")
