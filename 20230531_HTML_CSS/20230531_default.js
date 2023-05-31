@@ -136,7 +136,7 @@ for(var k = 1; k <= 100; k++){
 //document.write("=========================<br>")
 //함수
 //매개변수 없는 함수 생성하기
-function message(){
+/*function message(){
     document.write("Hello, I am function without parameter "+"<br>");
 }
 //한개의 매개변수를 가진 함수 생성하기
@@ -155,6 +155,9 @@ function square(num){
 message();
 selectMessage("한민호");
 addition(2,3);
-document.write("square if 5 is "+square(5)+"<br/>");
+document.write("square if 5 is "+square(5)+"<br/>");*/
 
 //document.write("=========================<br>")
+
+
+//즉시 실행함수
