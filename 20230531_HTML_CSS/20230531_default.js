@@ -160,8 +160,8 @@ document.write("square if 5 is "+square(5)+"<br/>");*/
 //document.write("=========================<br>")
 
 
-//즉시 실행함수
-(function display(message){
+//즉시 실행함수 IIFE 예제
+/*(function display(message){
     console.log(message);
 
 })("hi");
@@ -173,4 +173,34 @@ display2("I am message");
 
 (function addNumbers(a,b){
     console.log(a+b);
-})(3,4)
+})(3,4)*/
+
+//배열생성
+var names = new Array(20);
+names[0] ="지훈"
+names[1]="은영"
+console.log(names[1]);//은영
+
+//값을 가진 배열 생성
+var students = ["지훈","은영","수진","은호"];
+console.log("students = "+students);//배열의 내용 전부 출력
+console.log("2번 인덱스의 학생 :  = "+students[2]);//수진
+
+//배열의 길기 찾기
+console.log("학생 배열의 길이 : ",students.length);//배열의 길이 출력
+
+//배열의 요소 추가하기
+students.push("민호"); //배열 입력
+console.log("push 후 학생 배열 = "+students);
+
+//배열의 요소 삭제하기
+students.pop("민호");//마지막 요소를 뱉어 냄
+console.log("pop 후 학생 배열 : "+students);
+
+var numArray1 = [10,20];
+var numArray2 = [10,40,50,60];
+var numArray = numArray1.concat(numArray2);
+console.log("배열 찾기(concatenation) : "+numArray);
+console.log(numArray1+numArray2);
+//students.splice(1,0,"민호") 배열을 연속된 공간을 삽입
+//students
