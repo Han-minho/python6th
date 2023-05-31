@@ -67,6 +67,7 @@ if(letter == "a" || letter == "e" ||
     console.log("Consonant");
 }*/
 /*switch문 */
+/*
 console.log("=========================");
 var digit = parseInt(prompt("Enter is number : "));
 switch (digit){
@@ -102,4 +103,19 @@ switch (digit){
         break;
     default:
         document.write("Not a digit");
+
 }
+console.log("=========================");
+*/
+var i = 1
+
+do{
+    document.write("멋쟁이사자i :  "+ i++ +"<br>/")
+}while(i<=10)
+document.write("=========================<br>")
+var j = 1
+
+while(j<=10){
+    document.write("멋쟁이사자j :  "+ j++ +"<br>/")
+}
+document.write("=========================<br>")
