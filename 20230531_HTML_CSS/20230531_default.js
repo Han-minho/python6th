@@ -176,31 +176,62 @@ display2("I am message");
 })(3,4)*/
 
 //배열생성
+/*
 var names = new Array(20);
 names[0] ="지훈"
 names[1]="은영"
 console.log(names[1]);//은영
+*/
 
 //값을 가진 배열 생성
+/*
 var students = ["지훈","은영","수진","은호"];
 console.log("students = "+students);//배열의 내용 전부 출력
 console.log("2번 인덱스의 학생 :  = "+students[2]);//수진
+*/
 
 //배열의 길기 찾기
-console.log("학생 배열의 길이 : ",students.length);//배열의 길이 출력
+/*console.log("학생 배열의 길이 : ",students.length);*///배열의 길이 출력
 
 //배열의 요소 추가하기
-students.push("민호"); //배열 입력
-console.log("push 후 학생 배열 = "+students);
+/*students.push("민호"); //배열 입력
+console.log("push 후 학생 배열 = "+students);*/
 
 //배열의 요소 삭제하기
-students.pop("민호");//마지막 요소를 뱉어 냄
+/*students.pop();//마지막 요소를 뱉어 냄
 console.log("pop 후 학생 배열 : "+students);
 
 var numArray1 = [10,20];
 var numArray2 = [10,40,50,60];
 var numArray = numArray1.concat(numArray2);
 console.log("배열 찾기(concatenation) : "+numArray);
-console.log(numArray1+numArray2);
+console.log(numArray1+numArray2);*/
 //students.splice(1,0,"민호") 배열을 연속된 공간을 삽입
 //students
+
+var date = new Date();
+console.log(date);
+//년도 구하기
+var year = date.getFullYear();
+console.log(year);
+
+//월 정보 구하기
+var month = date.getMonth()+1;
+console.log(month);
+
+//일 구하기
+var currentDate = date.getDate();
+console.log(currentDate);
+
+//요일 정보 구하기
+var currentDay = date.getDay();
+console.log(currentDay);
+
+//시간 정보 구하기
+var currentHour = date.getHours();
+console.log(currentHour);
+
+//분 정보 구하기
+var currentMinutes = date.getMinutes();
+console.log(currentMinutes);
+console.log("getTime : ",date.getTime());
