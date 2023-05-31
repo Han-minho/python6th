@@ -138,13 +138,13 @@ for(var k = 1; k <= 100; k++){
 //매개변수 없는 함수 생성하기
 /*function message(){
     document.write("Hello, I am function without parameter "+"<br>");
-}
+}*/
 //한개의 매개변수를 가진 함수 생성하기
-function selectMessage(name){
+/*function selectMessage(name){
     document.write("Welcome"+name+"<br/>")
-}
+}*/
 //여러개의 매개변수를 가진 함수 생성하기
-function addition(num1,num2){
+/*function addition(num1,num2){
     var sum = num1+num2;
     document.write("addition is "+sum+"<br/>");
 }
@@ -161,3 +161,16 @@ document.write("square if 5 is "+square(5)+"<br/>");*/
 
 
 //즉시 실행함수
+(function display(message){
+    console.log(message);
+
+})("hi");
+
+var display2 = function displayMessage(msg){
+    console.log(msg);
+}
+display2("I am message");
+
+(function addNumbers(a,b){
+    console.log(a+b);
+})(3,4)
