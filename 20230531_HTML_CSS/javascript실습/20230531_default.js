@@ -190,7 +190,7 @@ console.log("students = "+students);//배열의 내용 전부 출력
 console.log("2번 인덱스의 학생 :  = "+students[2]);//수진
 */
 
-//배열의 길기 찾기
+//배열의 길이 찾기
 /*console.log("학생 배열의 길이 : ",students.length);*///배열의 길이 출력
 
 //배열의 요소 추가하기
