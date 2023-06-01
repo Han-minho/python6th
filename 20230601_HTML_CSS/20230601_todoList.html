@@ -23,6 +23,19 @@
             text-align:center;
             padding-left:100px;
         }
+        #loadGrid{
+            text-align:center;
+            padding-left:100px;
+            margin-top:10px;
+        }
+        #loadTodo{
+            width:400px;
+            text-align:center;
+            border : 4px solid #eee;
+            border-radius:5px;
+            padding-left:10px;
+            margin-left:500px;
+        }
         #todoText {
             width:500px;
             border: 5px solid #000;
@@ -33,7 +46,35 @@
         #toSave{
             align:center;
         }
+        #toRemove{
+            margin-top:5px;
+            margin-left:0;
+            margin-right:0;
+        }
     </style>
+    <script>
+        function clearTodo(){
+            console.log('clear todoList!');
+            localStorage.clear();
+            document.getElementById('loadTodo').innerHTML='';
+        }
+        function getTodoList(){
+            console.log('get Todo List!');
+            var todoList = localStorage.getItem('todoText');
+            document.getElementById('todoText').innerHTML= loadTodo;
+        }
+        function saveTodoList(todoText){
+            var todoList = document.getElementById('todoText').innerHTML=loadTodo;
+            localStorage.setItem('todoText',todoText);
+        }
+        function addList(){
+            console.log('addition TodoList!');
+            var addTodoList = document.getElementById('loadTodo').innerHTML=todoText;
+            document.getElementById('loadTodo').innerHTML=todoText;
+        }
+
+        getTodoList();
+    </script>
 </head>
 <body>
     <header>
@@ -44,12 +85,25 @@
              id="textGrid">
             <div id="todoText"
                  contenteditable="true"
-                 oninput="saveTodoList()">
+                 oninput="saveTodoList(todoText)">
             </div>
             <button type="button"
                     id="toSave"
                     class="btn btn-primary"
                     onclick="addList()">Add
+            </button>
+        </div>
+        <div class="d-grid gap-2 d-md-flex justify-content-mt-end"
+             id="loadGrid">
+            <div id="loadTodo"
+                 contenteditable="true"
+                 oninput="getTodoList()">
+            </div>
+            <button type="button"
+                        id="toRemove"
+                        class="btn btn-danger"
+                        onclick="clearTodo()">
+                Re Move
             </button>
         </div>
     </main>
