@@ -1,0 +1,10 @@
+/*id 속성 값 부여는 # */
+#col-md-Grid-oneLine{
+    background-color : lightblue;
+}
+#col-md-Grid-twoLine{
+    background-color : lightgreen;
+}
+#col-md-Grid-threeLine{
+    background-color : lightyellow;
+}
