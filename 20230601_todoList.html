@@ -52,29 +52,7 @@
             margin-right:0;
         }
     </style>
-    <script>
-        function clearTodo(){
-            console.log('clear todoList!');
-            localStorage.clear();
-            document.getElementById('loadTodo').innerHTML='';
-        }
-        function getTodoList(){
-            console.log('get Todo List!');
-            var todoList = localStorage.getItem('todoText');
-            document.getElementById('todoText').innerHTML= loadTodo;
-        }
-        function saveTodoList(todoText){
-            var todoList = document.getElementById('todoText').innerHTML=loadTodo;
-            localStorage.setItem('todoText',todoText);
-        }
-        function addList(){
-            console.log('addition TodoList!');
-            var addTodoList = document.getElementById('loadTodo').innerHTML=todoText;
-            document.getElementById('loadTodo').innerHTML=todoText;
-        }
 
-        getTodoList();
-    </script>
 </head>
 <body>
     <header>
@@ -85,7 +63,7 @@
              id="textGrid">
             <div id="todoText"
                  contenteditable="true"
-                 oninput="saveTodoList(todoText)">
+                 oninput="saveTodoList()">
             </div>
             <button type="button"
                     id="toSave"
@@ -96,16 +74,43 @@
         <div class="d-grid gap-2 d-md-flex justify-content-mt-end"
              id="loadGrid">
             <div id="loadTodo"
-                 contenteditable="true"
                  oninput="getTodoList()">
             </div>
             <button type="button"
                         id="toRemove"
                         class="btn btn-danger"
                         onclick="clearTodo()">
-                Re Move
+                Remove
             </button>
         </div>
     </main>
+    <script>
+        function clearTodo(){
+            console.log('clear todoList!');
+            localStorage.clear();
+            document.getElementById('loadTodo').innerHTML='';
+        }
+        function getTodoList(){
+            console.log('get Todo List!');
+            var todoList = localStorage.getItem('todoText');
+            document.getElementById('todoText').innerHTML = todoList;
+        }
+        function saveTodoList() {
+            var todoText = document.getElementById('todoText').innerHTML;
+            localStorage.setItem('todoText',todoText);
+        }
+        function addList(){
+            var todoList = JSON.parse(localStorage.getItem('todoList')) || [];
+            console.log('todoList:', todoList);
+            var todoText = localStorage.getItem('todoText');
+            todoList.push(todoText);
+            localStorage.setItem('todoList', JSON.stringify(todoList));
+            document.getElementById('loadTodo').innerHTML = todoList.join(',');
+            // var todoText = document.getElementById('loadTodo').innerHTML;
+
+        }
+
+        getTodoList();
+    </script>
 </body>
 </html>
