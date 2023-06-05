@@ -9,3 +9,6 @@ print(data)
 print('Like','Share','Subscribe',sep='')
 print('Like','Share','Subscribe',sep=' ')
 print('Like','Share','Subscribe',sep='***')
+
+print("He said, \"Hello World\"")
+print("It`s beautiful day")
