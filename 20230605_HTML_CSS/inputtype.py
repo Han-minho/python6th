@@ -4,3 +4,14 @@ age = int(input('나이를 입력하세요 : '))
 
 print('name : ',name,"age : ",age)
 print("나이의 타입은 : ",type(age))
+
+name = input()
+print(name)
+name = input("Your name : ")
+mobile = input("Enter Your Mobile Number : ")
+mb = int(mobile)
+print(mb,type(mb))
+
+price = float(input("total Price : "))
+
+print(price)
