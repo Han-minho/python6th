@@ -18,12 +18,12 @@ print(type(p))
 
 q = 20
 u = " 10"
-r = q + u  ##문자열 숫자 연산 불가
+r = str(q) + u  ##문자열 숫자 연산 불가
 print(r)
 
 m = 20
 n = ' 멋쟁이 사자'  ##문자열 숫자 연산 불가
-t = m + n
+t = str(m) + n
 print(t)
 
 # 명시적 타입 변환
