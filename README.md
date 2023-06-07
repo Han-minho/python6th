@@ -19,3 +19,13 @@
 # 06월 05일
 - python 실습
 - 연산자 기초 실습
+
+# 06월 07일
+- python 실습
+- break,continue
+- for && slice
+- upper && lower
+- istitle(),isdigit()
+- split()
+- lstrip(),rstrip(),strip()
+- startswith(),endswith()
