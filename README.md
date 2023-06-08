@@ -29,3 +29,6 @@
 - split()
 - lstrip(),rstrip(),strip()
 - startswith(),endswith()
+
+# 06월 08일
+- python 실습
