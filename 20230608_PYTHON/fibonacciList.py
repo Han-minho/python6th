@@ -5,10 +5,13 @@ def fibonacci(n):
         yield a
         a,b = b, a + b
 
-result = fibonacci(10)
+runner = fibonacci(100)
 
-print(next(result))
-print(next(result))
-print(next(result))
-for num in result :
+print(next(runner))
+
+print("=======================================")
+print(runner)
+print(next(runner))
+print("=======================================")
+for num in runner :
     print(num)
