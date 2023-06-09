@@ -1,3 +1,4 @@
+# 상속
 class Mobile:
     fp = 'yes'
 
