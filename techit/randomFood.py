@@ -6,9 +6,8 @@ lunch = ["된장찌개","피자","제육볶음","자장면"]
 # 음식 추가
 while True:
     print(lunch)
-    item = input("음식을 추가 해주세요 : ")
-    if(item =="q"):
-        print(lunch)
+    item = input("음식을 추가 해주세요(종료 exit) : ")
+    if(item == "exit"):
         break
     else:
         lunch.append(item)
@@ -19,9 +18,8 @@ set_lunch = set(lunch)
 # 음식 삭제
 while True:
     print(set_lunch)
-    item = input("음식을 삭제해주세요 : ")
-    if(item == "q"):
-        print(lunch)
+    item = input("음식을 삭제해주세요(종료 exit) : ")
+    if(item == "exit"):
         break
     else:
         # 차집합
